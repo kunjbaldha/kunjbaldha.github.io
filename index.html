@@ -1,122 +1,712 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: https://ogp.me/ns#">
   <head>
+    <!-- Primary Meta Tags -->
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Kunj Baldha - Passionate and skilled Node JS Developer with expertise in NEST JS, Micro-services, GraphQL, and TypeScript. Proficient in building robust applications with Postgres and MySQL."
-    />
-    <meta name="keywords" content="Kunj Baldha, Node JS Developer, NEST JS, Micro-services, GraphQL, TypeScript, Postgres, MySQL, Full-Stack Developer, Ahmedabad, Gujarat, node, micro, services, mysql, postgres, kunj, baldha, kunj baldha" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Kunj Baldha - Experienced Full Stack Developer specializing in modern web technologies. Let's build something amazing together!" />
     <meta name="author" content="Kunj Baldha" />
-    <title>Kunj Baldha - Node JS Developer</title>
-    <title>Kunj Baldha</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/4aa9dacb62.js"
-      crossorigin="anonymous"
-    ></script>
+    <meta name="theme-color" content="#6366f1" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="Full Stack Developer, Web Developer, Kunj Baldha, Portfolio, JavaScript, React, Node.js" />
+    <meta name="language" content="English" />
+    
+    <!-- Open Graph / Facebook / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kunjbaldha.com/" />
+    <meta property="og:title" content="Kunj Baldha - Full Stack Developer" />
+    <meta property="og:description" content="Experienced Full Stack Developer specializing in modern web technologies. Let's build something amazing together!" />
+    <meta property="og:image" content="https://kunjbaldha.com/images/og-image.jpg" />
+    <meta property="og:site_name" content="Kunj Baldha" />
+    <meta property="og:locale" content="en_US" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://kunjbaldha.com/" />
+    <meta name="twitter:title" content="Kunj Baldha - Full Stack Developer" />
+    <meta name="twitter:description" content="Experienced Full Stack Developer specializing in modern web technologies. Let's build something amazing together!" />
+    <meta name="twitter:image" content="https://kunjbaldha.com/images/twitter-card.jpg" />
+    
+    <!-- Favicon & App Icons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#6366f1" />
+    
+    <!-- PWA & Mobile -->
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Kunj Baldha" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Kunj Baldha" />
+    <meta name="msapplication-TileColor" content="#6366f1" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kunjbaldha.com/" />
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <!-- Page Title -->
+    <title>Kunj Baldha | Full Stack Developer | Building Digital Experiences</title>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <div id="logo">
-          <a href="/">Kunj Baldha</a>
-        </div>
-        <div class="nav">
-          <ul>
-            <li class="link"><a id="linkBlog" href="./blog.html">Blogs</a></li>
-            <!-- <li class="link"><a id="linkAbout" href="#">About Me</a></li> -->
-          </ul>
-        </div>
-      </div>
-      <div class="body">
-        <div class="section1">
-          <div id="box1" class="box boxL">
-            <img src="/assets/img/node.png" alt="" />
-          </div>
-          <div id="box2" class="box boxL">
-            <img src="/assets/img/nest-js-icon.png" alt="" />
-          </div>
-          <div id="box4" class="box boxL">
-            <img src="/assets/img/PG.png" alt="" />
-          </div>
-          <div id="box2" class="box boxL">
-            <img src="/assets/img/MS.png" alt="" />
-          </div>
-        </div>
-        <div class="section2">
-          <div class="pic"><img src="/assets/img/pic.jpeg" alt="Kunj Baldha" /></div>
-          <div class="text">
-            <p class="h1">Hello, I'm Full-Stack Developer in India.</p>
-            <p class="h2">Kunj Baldha</p>
-            <p class="h3">Developer</p>
-          </div>
-          <div class="intro">
-            <div class="head">
-              <p>About</p>
-              <span class="underline"></span>
-            </div>
-            <div class="introBody">
-              <p>
-                Hi, I'm Kunj Baldha, a passionate and skilled Node JS Developer
-                with expertise in NEST JS, Micro-services, GraphQL, and
-                TypeScript. I have a strong background in building robust and
-                scalable applications using Postgres and MySQL databases. With a
-                focus on delivering high-quality code and efficient solutions, I
-                thrive on tackling challenging projects and continuously
-                improving my skills. Let's build something amazing together!
+    <!-- Main Content -->
+    <main id="main">
+      <!-- Hero Section -->
+      <section id="home" class="hero" aria-label="Hero section">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <span class="hero-badge">🚀 Full Stack Developer</span>
+              <h1 class="hero-title">
+                Building Digital Experiences That Matter
+              </h1>
+              <p class="hero-description">
+                Hi, I'm <strong>Kunj Baldha</strong>, a passionate Full Stack
+                Developer crafting scalable web applications with cutting-edge
+                technologies. I transform ideas into elegant, performant
+                solutions.
               </p>
+              <div class="hero-stats">
+                <div class="stat-item">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">15+</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number">100%</span>
+                  <span class="stat-label">Client Satisfaction</span>
+                </div>
+              </div>
             </div>
-            <div>
-              <p class="head">Bio <span class="underline"></span></p>
-            </div>
-            <div class="introBody">
-              <p>Ahmedabad, Gujarat.</p>
-              <p>BE-Computer Engineering.</p>
-              <p>Born 2001 in Rajkot, Gujarat, India.</p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-large"
+                >View My Work</a
+              >
+              <a href="#contact" class="btn btn-outline btn-large"
+                >Let's Talk</a
+              >
             </div>
           </div>
-          <div class="socialMedia">
-            <a
-              href="https://linkedin.com/in/kunj-baldha-1a3935205/"
-              target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a
-              href="https://instagram.com/mr.kd_baldha?igshid=YmMyMTA2M2Y="
-              target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-            <a href="https://github.com/kunjbaldha/" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-            <a
-              href="https://twitter.com/KunjBaldha?t=k8kQd8FeGObJfFwUqh5l6A&s=09"
-              target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-            <a href="mailto: kunjbaldha77@gmail.com" target="_blank"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
+
+          <!-- Ambient accents -->
+          <div class="hero-accent hero-accent-left"></div>
+          <div class="hero-accent hero-accent-right"></div>
+          <div class="hero-accent hero-accent-center"></div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container about-grid">
+          <article class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-text">
+              I'm a passionate Full Stack Developer with over 2+ years of
+              experience crafting digital solutions that make a difference. My
+              journey in tech started with curiosity and has evolved into a deep
+              passion for building scalable, user-centric applications.
+            </p>
+            <p class="about-text">
+              I specialize in modern web technologies including React, Node.js,
+              TypeScript, and cloud-native architectures. My approach combines
+              technical expertise with creative problem-solving, ensuring every
+              project delivers exceptional user experiences while maintaining
+              robust, maintainable code.
+            </p>
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <span class="highlight-icon">🎯</span>
+                <div class="highlight-content">
+                  <h4>Problem Solver</h4>
+                  <p>I tackle complex challenges with innovative solutions</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🚀</span>
+                <div class="highlight-content">
+                  <h4>Fast Learner</h4>
+                  <p>Always exploring new technologies and best practices</p>
+                </div>
+              </div>
+              <div class="highlight-item">
+                <span class="highlight-icon">🤝</span>
+                <div class="highlight-content">
+                  <h4>Team Player</h4>
+                  <p>Collaborative approach to achieve project goals</p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <aside class="about-sidebar">
+            <div class="core-focus-card">
+              <h3 class="card-title">Core Focus</h3>
+              <ul class="core-focus-list">
+                <li class="core-focus-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="m18 16 4-4-4-4" />
+                    <path d="m6 8-4 4 4 4" />
+                    <path d="m14.5 4-5 16" />
+                  </svg>
+                  <span>Frontend: React, Redux, Tailwind</span>
+                </li>
+                <li class="core-focus-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                    <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                    <path d="M6 6h.01M6 18h.01" />
+                  </svg>
+                  <span>Backend: Node.js, NestJS, Express</span>
+                </li>
+                <li class="core-focus-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="m21 12-3-7" />
+                    <path d="m3 12 3-7" />
+                    <path d="m21 7-3 7" />
+                    <path d="m3 7 3 7" />
+                    <path d="m9 5 3 7" />
+                    <path d="m9 12 3 7" />
+                  </svg>
+                  <span>Databases: Postgres, MySQL, MongoDB, Redis</span>
+                </li>
+                <li class="core-focus-item">
+                  <svg
+                    class="icon"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10Z" />
+                  </svg>
+                  <span>Cloud: AWS, GCP • CI/CD • Docker</span>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">
+              A comprehensive overview of my technical skills and competencies.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <!-- Backend Skills -->
+            <div class="skill-category">
+              <div class="skill-category-header">
+                <div class="skill-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect width="20" height="8" x="2" y="2" rx="2" ry="2" />
+                    <rect width="20" height="8" x="2" y="14" rx="2" ry="2" />
+                    <path d="M6 6h.01M6 18h.01" />
+                  </svg>
+                </div>
+                <h3>Backend Development</h3>
+              </div>
+              <div class="skill-chips">
+                <div class="skill-chip">Node.js</div>
+                <div class="skill-chip">NestJS</div>
+                <div class="skill-chip">Express</div>
+                <div class="skill-chip">GraphQL</div>
+                <div class="skill-chip">REST APIs</div>
+              </div>
+            </div>
+
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+              <div class="skill-category-header">
+                <div class="skill-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m18 16 4-4-4-4" />
+                    <path d="m6 8-4 4 4 4" />
+                    <path d="m14.5 4-5 16" />
+                  </svg>
+                </div>
+                <h3>Frontend Development</h3>
+              </div>
+              <div class="skill-chips">
+                <div class="skill-chip">React</div>
+                <div class="skill-chip">TypeScript</div>
+                <div class="skill-chip">Tailwind CSS</div>
+                <div class="skill-chip">Redux</div>
+                <div class="skill-chip">Vite</div>
+              </div>
+            </div>
+
+            <!-- Data & Infrastructure -->
+            <div class="skill-category">
+              <div class="skill-category-header">
+                <div class="skill-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="m21 12-3-7" />
+                    <path d="m3 12 3-7" />
+                    <path d="m21 7-3 7" />
+                    <path d="m3 7 3 7" />
+                    <path d="m9 5 3 7" />
+                    <path d="m9 12 3 7" />
+                  </svg>
+                </div>
+                <h3>Data & Infrastructure</h3>
+              </div>
+              <div class="skill-chips">
+                <div class="skill-chip">PostgreSQL</div>
+                <div class="skill-chip">MongoDB</div>
+                <div class="skill-chip">Docker</div>
+                <div class="skill-chip">AWS</div>
+                <div class="skill-chip">CI/CD</div>
+              </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+              <div class="skill-category-header">
+                <div class="skill-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.66 0 3-4.03 3-9s-1.34-9-3-9m0 18c-1.66 0-3-4.03-3-9s1.34-9 3-9m-9 9a9 9 0 0 1 9-9" />
+                  </svg>
+                </div>
+                <h3>Tools & Others</h3>
+              </div>
+              <div class="skill-chips">
+                <div class="skill-chip">Git</div>
+                <div class="skill-chip">Jest</div>
+                <div class="skill-chip">Linux</div>
+                <div class="skill-chip">VS Code</div>
+                <div class="skill-chip">Figma</div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="section3">
-          <div id="box1" class="box boxR">
-            <img src="/assets/img/TS.png" alt="" />
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="experience">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Experience & Education</h2>
+            <p class="section-subtitle">
+              My professional journey and academic background
+            </p>
           </div>
-          <div id="box2" class="box boxR">
-            <img src="/assets/img/graphql-icon.png" alt="" />
+
+          <div class="experience-grid">
+            <!-- Experience Card -->
+            <div class="experience-card">
+              <div class="experience-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6" />
+                  <path d="m16 3 5 5-5 5" />
+                  <path d="M21 8h-9a2 2 0 0 0-2 2v9" />
+                </svg>
+              </div>
+              <div class="experience-content">
+                <div class="experience-period">2023 - Present</div>
+                <h3 class="experience-title">Full Stack Developer</h3>
+                <p class="experience-company">Company Name</p>
+                <p class="experience-description">
+                  Leading development of scalable web applications using modern technologies. 
+                  Collaborating with cross-functional teams to deliver high-quality solutions.
+                </p>
+                <div class="experience-tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">AWS</span>
+                  <span class="tag">Docker</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Education Card -->
+            <div class="experience-card">
+              <div class="experience-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                  <path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5" />
+                </svg>
+              </div>
+              <div class="experience-content">
+                <div class="experience-period">2019 - 2023</div>
+                <h3 class="experience-title">B.E. in Computer Engineering</h3>
+                <p class="experience-company">Sardar Vallabhbhai Patel Institute of Technology, Vasad</p>
+                <p class="experience-description">
+                  Graduated with honors, specializing in software engineering and web development. 
+                  Completed capstone project on modern web application architecture.
+                </p>
+                <div class="experience-tags">
+                  <span class="tag">Computer Science</span>
+                  <span class="tag">Software Engineering</span>
+                  <span class="tag">Web Development</span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div id="box4" class="box boxR">
-            <img src="/assets/img/JS.png" alt="" />
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">
+              Have a project in mind or want to discuss opportunities? I'm always open to chat about
+              how we can work together to bring your ideas to life.
+            </p>
           </div>
+
+          <div class="contact-grid">
+            <div class="contact-info">
+              <h3>Let's Connect</h3>
+              <p class="contact-intro">
+                Feel free to reach out through any of these channels. I'll get back to you as soon as possible.
+              </p>
+
+              <div class="contact-methods">
+                <div class="contact-method-card email-card">
+                  <a href="mailto:kunjbaldha77@gmail.com" class="contact-method" aria-label="Email">
+                    <div class="contact-method-inner">
+                      <div class="contact-icon-wrapper">
+                        <div class="contact-icon-bg">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="contact-text">
+                        <span class="contact-label">Email Me</span>
+                        <span class="contact-value">kunjbaldha77@gmail.com</span>
+                      </div>
+                      <div class="contact-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="contact-method-card linkedin-card">
+                  <a href="https://www.linkedin.com/in/kunj-baldha-1a3935205" target="_blank" rel="noopener noreferrer" class="contact-method" aria-label="LinkedIn">
+                    <div class="contact-method-inner">
+                      <div class="contact-icon-wrapper">
+                        <div class="contact-icon-bg">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect width="4" height="12" x="2" y="9" />
+                            <circle cx="4" cy="4" r="2" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="contact-text">
+                        <span class="contact-label">Connect on</span>
+                        <span class="contact-value">LinkedIn</span>
+                      </div>
+                      <div class="contact-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="contact-method-card github-card">
+                  <a href="https://github.com/kunjbaldha" target="_blank" rel="noopener noreferrer" class="contact-method" aria-label="GitHub">
+                    <div class="contact-method-inner">
+                      <div class="contact-icon-wrapper">
+                        <div class="contact-icon-bg">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.45-5.36-.45-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4" />
+                            <path d="M9 18c-4.51 2-5-2-7-2" />
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="contact-text">
+                        <span class="contact-label">Follow on</span>
+                        <span class="contact-value">GitHub</span>
+                      </div>
+                      <div class="contact-arrow">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+              <h3>Send Me a Message</h3>
+              <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder=" "
+                    required
+                  />
+                  <label for="name" class="form-label">Your Name</label>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder=" "
+                    required
+                  />
+                  <label for="email" class="form-label">Email Address</label>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    rows="5"
+                    placeholder=" "
+                    required
+                  ></textarea>
+                  <label for="message" class="form-label">Your Message</label>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  <span>Send Message</span>
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <h3 class="footer-logo">Kunj Baldha</h3>
+            <p class="footer-tagline">
+              Full Stack Developer crafting digital experiences
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h4>Connect</h4>
+            <div class="social-links">
+              <a
+                href="https://github.com/kunjbaldha"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.45-5.36-.45-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                  />
+                  <path d="M9 18c-4.51 2-5-2-7-2" />
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/kunj-baldha-1a3935205"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  />
+                  <rect width="4" height="12" x="2" y="9" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </a>
+              <a href="mailto:kunjbaldha77@gmail.com" aria-label="Email">
+                <svg
+                  class="icon"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            © <span id="current-year"></span> Kunj Baldha. All rights reserved.
+          </p>
         </div>
       </div>
-      <footer>
-        <p>&copy; 2024 Kunj Baldha. All rights reserved.</p>
-      </footer>
-    </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "#person",
+      "name": "Kunj Baldha",
+      "url": "https://kunjbaldha.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/kunj-baldha-1a3935205",
+        "https://github.com/kunjbaldha"
+      ],
+      "jobTitle": "Full Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "description": "Experienced Full Stack Developer specializing in modern web technologies.",
+      "image": "https://kunjbaldha.com/images/profile.jpg"
+    }
+    </script>
+    
+    <!-- Website Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "#website",
+      "url": "https://kunjbaldha.com",
+      "name": "Kunj Baldha - Full Stack Developer",
+      "description": "Portfolio of Kunj Baldha, a Full Stack Developer specializing in modern web technologies.",
+      "publisher": {
+        "@id": "#person"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://kunjbaldha.com/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- Main JavaScript -->
+    <script>
+      // Set current year in footer
+      document.getElementById('current-year').textContent = new Date().getFullYear();
+      
+      // Animate skill levels on scroll into view
+      document.addEventListener('DOMContentLoaded', function() {
+        const skillChips = document.querySelectorAll('.skill-chip');
+        
+        if (skillChips.length > 0) {
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                const skillLevel = entry.target.getAttribute('data-level');
+                if (skillLevel) {
+                  entry.target.style.setProperty('--skill-level', `${skillLevel}%`);
+                  observer.unobserve(entry.target);
+                }
+              }
+            });
+          }, { threshold: 0.2 });
+
+          skillChips.forEach(chip => {
+            observer.observe(chip);
+          });
+        }
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: 'smooth'
+            });
+            
+            // Update URL without page jump
+            history.pushState(null, '', targetId);
+          }
+        });
+      });
+    </script>
   </body>
 </html>

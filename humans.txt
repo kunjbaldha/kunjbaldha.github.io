@@ -1,0 +1,21 @@
+/* TEAM */
+  Developer: Kunj Baldha
+  Site: https://kunjbaldha.com
+  Email: kunjbaldha77@gmail.com
+  Location: India
+
+/* THANKS */
+  Fonts: Google Fonts (Inter)
+  Icons: Lucide Icons
+  Inspiration: Modern web design trends
+
+/* SITE */
+  Last updated: 2025/08/10
+  Language: English
+  Standards: HTML5, CSS3, ES6+
+  Components: Custom built with pure HTML, CSS, and JavaScript
+  Software: Visual Studio Code
+
+/* NOTE */
+  This website was built with care and attention to detail.
+  Thanks for visiting!
